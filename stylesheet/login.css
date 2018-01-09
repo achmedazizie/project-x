@@ -1,0 +1,88 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #BDC3C7;
+}
+
+.container{
+  background-color: white;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 430px;
+  height: 350px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#statusDisplay{
+  float: right;
+  color: red;
+  text-align: right;
+}
+
+#txtEmail{
+  margin-bottom: 5px;
+  margin-top: 10px;
+  padding-left: 2px;
+  width: 100%;
+  height: 25px;
+  font-family: 'Raleway', sans-serif;
+  border: none;
+  border-bottom: 0.5px solid #34495E;
+}
+
+input:focus{
+  outline: none;
+}
+
+#txtPassword{
+  margin-bottom: 15px;
+  padding-left: 2px;
+  width: 100%;
+  height: 25px;
+  font-family: 'Raleway', sans-serif;
+  border: none;
+  border-bottom: 0.5px solid #34495E;
+}
+
+#btnLogin{
+  font-family: 'Raleway', sans-serif;
+  color: #34495E;
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  border: 0.5px solid #34495E;
+  display: inline-block;
+  font-size: 16px;
+  padding: 7px 24px;
+}
+
+#btnLogin:hover{
+  background-color: #34495E;
+  color: white;
+  border: 0.5px solid #34495E;
+}
+
+#btnSignUp{
+  font-family: 'Raleway', sans-serif;
+  color: #34495E;
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  border: 0.5px solid #34495E;
+  display: inline-block;
+  font-size: 16px;
+  padding: 7px 24px;
+}
+
+#btnSignUp:hover{
+  background-color: #34495E;
+  color: white;
+  border: 0.5px solid #34495E;
+}
